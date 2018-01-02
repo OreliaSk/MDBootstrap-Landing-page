@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -14,16 +14,17 @@
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/icone/coding.svg">
 </head>
 
 <body>
 
     <header>
         <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark indigo fixed-top">
+        <nav class="navbar special-color-dark navbar-expand-lg fixed-top scrolling-navbar">
             <div class="container">
                 <!-- Navbar brand -->
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand white-text" href="#"><img src="img/icone/coding.svg" alt="icone-site" height="50"></a>
 
                 <!-- Collapse button -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -33,34 +34,22 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
                     <!-- Links -->
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link white-text" href="#">Accueil <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link white-text" href="#about">A propos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link white-text" href="#project">Projets</a>
                         </li>
-
-                        <!-- Dropdown -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
+                        <li class="nav-item">
+                            <a class="nav-link white-text" href="#contact">Contact</a>
                         </li>
 
                     </ul>
                     <!-- Links -->
-
-                    <!-- Search form -->
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    </form>
                 </div>
                 <!-- Collapsible content -->
             </div>
@@ -71,10 +60,10 @@
             <div class="container-fluid full-bg-img d-flex align-items-center justify-content-center">
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-10 text-center">
-                        <h2 class="display-3 font-bold white-text mb-2">My landing page</h2>
+                        <h2 class="display-3 font-bold white-text mb-2">Orélia Sokambi<span class="light-blue-text">.</span></h2>
                         <hr class="hr-light">
-                        <h4 class="white-text my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et consequatur iusto ipsum rem, doloremque, mollitia autem laboriosam. Vero quas porro obcaecati commodi incidunt dignissimos voluptate asperiores repellat officia, voluptatum minima!</h4>
-                        <button type="button" class="btn btn-outline-white">Read more<i class="fa fa-book ml"></i></button>
+                        <h4 class="white-text my-4">Développeuse <span class="light-blue-text">front-end</span> passionnée par l'informatique, le <span class="light-blue-text">web</span> et la <span class="light-blue-text">création</span> sous toutes ses formes, je suis toujours prête à me lancer dans de nouveaux projets <span class="light-blue-text">innovants</span> et <span class="light-blue-text">stimulants</span>.</h4>
+                        <button type="button" class="btn btn-light-blue">Read more<i class="fa fa-book ml-2"></i></button>
                     </div>
                 </div>
             </div>
@@ -215,34 +204,34 @@
             <hr class="my-5">
 
             <section id="contact">
-                <h2 class="mb-5 font-weight-bold text-center">Contact us</h2>
+                <h2 class="mb-5 font-weight-bold text-center">Me contacter</h2>
                 <div class="row">
                     <div class="col-lg-5 col-md-12">
                         <form action="" class="p-5">
                             <div class="md-form form-sm">
                                 <i class="fa fa-user prefix grey-text"></i>
                                 <input type="text" id="input-1" class="form-control">
-                                <label for="input-1">Your name</label>
+                                <label for="input-1">Votre nom</label>
                             </div>
 
                             <div class="md-form form-sm">
                                 <i class="fa fa-envelope prefix grey-text"></i>
                                 <input type="email" id="input-2" class="form-control">
-                                <label for="input-2">Your email</label>
+                                <label for="input-2">Votre email</label>
                             </div>
 
                             <div class="md-form form-sm">
                                 <i class="fa fa-tag prefix grey-text"></i>
                                 <input type="text" id="input-3" class="form-control">
-                                <label for="input-3">Subject</label>
+                                <label for="input-3">Sujet</label>
                             </div>
 
                             <div class="md-form form-sm">
                                 <i class="fa fa-pencil prefix grey-text"></i>
                                 <textarea type="text" id="input-4" class="md-textarea" style="height: 100px"></textarea>
-                                <label for="input-4">Your message</label>
+                                <label for="input-4">Votre message</label>
                             </div>
-                            <div class="text-center"><button class="btn btn-unique">Send<i class="fa fa-paper-plane-o ml-2" aria-hidden="true"></i></button></div>
+                            <div class="text-center"><button class="btn btn-light-blue">Envoyer<i class="fa fa-paper-plane-o ml-2" aria-hidden="true"></i></button></div>
                         </form>
                     </div>
                     <div class="col-lg-7 col-md-12">
@@ -254,7 +243,7 @@
                             </div>
                             <div class="col-md-4 mb-3">
                                 <p>
-                                    <i class="fa fa-building mr-2 grey-text"></i>Mon - Fri, 9:30-17:30
+                                    <i class="fa fa-building mr-2 grey-text"></i>Lun - Ven, 9:30-17:30
                                 </p>
                             </div>
                             <div class="col-md-4 mb-3">
@@ -267,17 +256,6 @@
                     </div>
                 </div>
             </section>
-            <hr class="my-5">
-
-            <section id="best-features">
-                
-            </section>
-            <hr class="my-5">
-
-            <section id="best-features">
-                
-            </section>
-            <hr class="my-5">
         </div>
     </main>
     
@@ -286,15 +264,11 @@
 
         <!--Footer Links-->
         <div class="container">
-
             <!--First row-->
             <div class="row">
-
                 <!--First column-->
                 <div class="col-md-12">
-
                     <div class="footer-socials mb-5 flex-center">
-
                         <!--Facebook-->
                         <a class="icons-sm fb-ic"><i class="fa fa-facebook fa-lg white-text mr-md-4"> </i></a>
                         <!--Twitter-->
@@ -319,6 +293,7 @@
         <div class="footer-copyright">
             <div class="container-fluid">
                 © 2018 Copyright: <a href="https://www.MDBootstrap.com"> oreliasokambi.com </a>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
             </div>
         </div>
         <!--/Copyright-->
