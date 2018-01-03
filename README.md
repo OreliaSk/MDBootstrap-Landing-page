@@ -22,4 +22,4 @@ In the css and js folders, Bootstrap and MDBootstrap are in minified version but
 * **Orélia Sokambi** - *Initial work*
 
 ### Good to know
-You can see a final render of this landing page on [final.png](https://github.com/OreliaSk/MDBootstrap-Landing-page/blob/master/final-App.png)
+You can see a final render of this landing page on [here](https://oreliask.github.io/MDBootstrap-Landing-page/index.html)
