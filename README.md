@@ -17,6 +17,7 @@ In the css and js folders, Bootstrap and MDBootstrap are in minified version but
 ### What I used to build this website :
 * [MDBootstrap version: 4.4.3](https://mdbootstrap.com/) - CSS framework
 * [Bootstrap version 4.0](https://getbootstrap.com/) - CSS framework
+* [Google Maps API](https://developers.google.com/maps/) - API web
 
 ### Author
 * **Orélia Sokambi** - *Initial work*
